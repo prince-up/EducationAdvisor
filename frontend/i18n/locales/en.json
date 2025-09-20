@@ -1,0 +1,42 @@
+{
+  "common": {
+    "appName": "Digital Career Advisor",
+    "welcome": "Welcome to Digital Career Advisor",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "home": "Home",
+    "quiz": "Career Quiz",
+    "colleges": "Colleges",
+    "scholarships": "Scholarships",
+    "budget": "Budget Planner",
+    "timeline": "Timeline"
+  },
+  "home": {
+    "heroTitle": "Plan Your Future Career",
+    "heroSubtitle": "Discover the right path for your education and career goals",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "featuresTitle": "Features",
+    "quizFeature": "Career Assessment Quiz",
+    "quizDescription": "Discover careers that match your interests and skills",
+    "collegesFeature": "College Finder",
+    "collegesDescription": "Find the perfect college for your career path",
+    "scholarshipsFeature": "Scholarship Opportunities",
+    "scholarshipsDescription": "Explore financial aid options for your education",
+    "budgetFeature": "Budget Planning",
+    "budgetDescription": "Plan your education expenses and savings"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "loginTitle": "Login to Your Account",
+    "registerTitle": "Create an Account",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  }
+}

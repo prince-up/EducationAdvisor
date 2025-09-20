@@ -1,0 +1,42 @@
+{
+  "common": {
+    "appName": "Asesor de Carrera Digital",
+    "welcome": "Bienvenido a Asesor de Carrera Digital",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "profile": "Perfil",
+    "home": "Inicio",
+    "quiz": "Cuestionario de Carrera",
+    "colleges": "Universidades",
+    "scholarships": "Becas",
+    "budget": "Planificador de Presupuesto",
+    "timeline": "Cronograma"
+  },
+  "home": {
+    "heroTitle": "Planifica tu Futura Carrera",
+    "heroSubtitle": "Descubre el camino adecuado para tus objetivos educativos y profesionales",
+    "getStarted": "Comenzar",
+    "learnMore": "Más Información",
+    "featuresTitle": "Características",
+    "quizFeature": "Evaluación de Carrera",
+    "quizDescription": "Descubre carreras que coincidan con tus intereses y habilidades",
+    "collegesFeature": "Buscador de Universidades",
+    "collegesDescription": "Encuentra la universidad perfecta para tu carrera",
+    "scholarshipsFeature": "Oportunidades de Becas",
+    "scholarshipsDescription": "Explora opciones de ayuda financiera para tu educación",
+    "budgetFeature": "Planificación de Presupuesto",
+    "budgetDescription": "Planifica tus gastos educativos y ahorros"
+  },
+  "auth": {
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "name": "Nombre Completo",
+    "loginTitle": "Inicia Sesión en tu Cuenta",
+    "registerTitle": "Crea una Cuenta",
+    "forgotPassword": "¿Olvidaste tu Contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "hasAccount": "¿Ya tienes una cuenta?"
+  }
+}
