@@ -6,6 +6,7 @@ import { fetchColleges } from '../services/api';
 import CollegeCard from '../components/CollegeCard';
 import LoadingSpinner from '../components/LoadingSpinner';
 import Layout from '../components/Layout';
+import VoiceChatbot from '../components/VoiceChatbot';
 
 export default function Colleges() {
   const { t } = useTranslation();
@@ -169,6 +170,9 @@ export default function Colleges() {
           </Row>
         )}
       </Container>
+      
+      {/* Voice Chatbot */}
+      <VoiceChatbot />
     </Layout>
   );
 }

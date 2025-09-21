@@ -17,6 +17,11 @@ import ProtectedRoute from '../components/ProtectedRoute';
 import HeroSection from '../components/HeroSection';
 import FeatureCard from '../components/FeatureCard';
 import StatsSection from '../components/StatsSection';
+import VoiceChatbot from '../components/VoiceChatbot';
+import AIRecommendation from '../components/AIRecommendation';
+import MentorNetwork from '../components/MentorNetwork';
+import SkillDevelopment from '../components/SkillDevelopment';
+import PersonalizedAssessment from '../components/PersonalizedAssessment';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -48,32 +53,34 @@ export default function Home() {
   return (
     <div className="min-vh-100">
       <Head>
-        <title>Digital Career & Education Advisor | J&K Students</title>
-        <meta name="description" content="Comprehensive career guidance and education planning platform for Jammu & Kashmir students" />
+        <title>CareerPath AI | AI-Powered Career Education Platform</title>
+        <meta name="description" content="Discover your perfect career path with AI-powered recommendations, personalized learning, and comprehensive guidance" />
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
 
-      <Navbar bg="dark" variant="dark" expand="lg" className="mb-0">
+      <Navbar bg="primary" variant="dark" expand="lg" className="mb-0 py-3">
         <Container>
-          <Navbar.Brand href="/" className="fw-bold">
-            <i className="bi bi-mortarboard me-2"></i>
-            Digital Career Advisor
+          <Navbar.Brand href="/" className="fw-bold fs-4">
+            <i className="bi bi-mortarboard-fill me-2"></i>
+            CareerPath AI
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/" className="fw-semibold">Home</Nav.Link>
-              
-              <Nav.Link href="/colleges" className="fw-semibold">Colleges</Nav.Link>
-              <Nav.Link href="/scholarships" className="fw-semibold">Scholarships</Nav.Link>
-              <Nav.Link href="/quiz" className="fw-semibold">Career Quiz</Nav.Link>
+              <Nav.Link href="/" className="fw-semibold mx-2">Home</Nav.Link>
+              <Nav.Link href="/colleges" className="fw-semibold mx-2">Colleges</Nav.Link>
+              <Nav.Link href="/scholarships" className="fw-semibold mx-2">Scholarships</Nav.Link>
+              <Nav.Link href="/quiz" className="fw-semibold mx-2">Career Quiz</Nav.Link>
+              <Nav.Link href="#ai-recommendations" className="fw-semibold mx-2">AI Recommendations</Nav.Link>
+              <Nav.Link href="#mentors" className="fw-semibold mx-2">Mentors</Nav.Link>
             </Nav>
             <Nav>
               <div className="d-flex align-items-center">
                 <Button 
-                  variant="outline-danger" 
+                  variant="outline-light" 
                   size="sm" 
-                  className="me-2" 
+                  className="me-3 px-3 py-2" 
                   onClick={handleLogout}
                 >
                   <i className="bi bi-box-arrow-right me-1"></i>
@@ -143,6 +150,18 @@ export default function Home() {
 
       {/* Statistics Section */}
       <StatsSection />
+      
+      {/* Personalized Assessment Section */}
+      <PersonalizedAssessment />
+      
+      {/* AI Recommendation Section */}
+      <AIRecommendation />
+      
+      {/* Mentor Network Section */}
+      <MentorNetwork />
+      
+      {/* Skill Development Section */}
+      <SkillDevelopment />
 
       {/* Call to Action Section */}
       <section className="py-5 bg-gradient-primary text-white">
@@ -224,6 +243,9 @@ export default function Home() {
           </Row>
         </Container>
       </footer>
+
+      {/* Voice Chatbot - Always visible */}
+      <VoiceChatbot />
     </div>
   );
 }
